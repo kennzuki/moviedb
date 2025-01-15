@@ -1,9 +1,9 @@
-
+import { Hero } from "./ui/Hero";
 
 export default function Home() {
   return (
     <main className="">
-      <p className="">kenji</p>
+     <Hero/>
     </main>
   );
 }
