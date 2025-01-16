@@ -1,6 +1,7 @@
 import React from 'react'
 import { PowerIcon } from '@heroicons/react/24/solid'
 import SearchInput from './SearchInput'
+import Link from 'next/link'
 
 
 export const Nav = () => {
@@ -9,7 +10,7 @@ export const Nav = () => {
       <h1 className="text-3xl uppercase font-bold ">Kenki</h1>
       <ul className="flex justify-between gap-4">
         <li>Home</li>
-        <li>About</li>
+        <Link href={'./movies'}>Movies</Link>
         <li>Contact</li>
         <SearchInput/>
       </ul>

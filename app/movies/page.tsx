@@ -1,6 +1,6 @@
-import { Cards } from './Cards';
+import { Cards } from '../ui/Cards';
 
-export const CardProp = () => {
+export default function Page ()  {
   return (
     <div className='p-6'>
       <Cards />
