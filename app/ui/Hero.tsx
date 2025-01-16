@@ -12,7 +12,7 @@ export const Hero = () => {
           <h2 className="text-6xl uppercase md:text-5xl font-bold text-white mb-6">
             Get the latest and best movies
           </h2>
-          <p className="text-sm md:text-xl text-gray-400 leading-relaxed">
+          <p className="text-sm text-gray-200 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo iste perferendis enim, distinctio ab voluptates dolorem, repellat aperiam autem esse quibusdam aspernatur perspiciatis!
           </p>
         </section>
