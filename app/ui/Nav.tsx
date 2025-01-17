@@ -7,8 +7,8 @@ export const Nav = () => {
   return (
     <div className='bg-[#201F31] flex justify-between place-items-center p-4'>
       <h1 className='text-3xl uppercase font-bold '>Kenki</h1>
-      <ul className='flex justify-between gap-4'>
-        <li>Home</li>
+      <ul className='flex justify-between gap-4 cursor-pointer'>
+        <Link href={'./'}>Home</Link>
         <Link href={'./movies'}>Movies</Link>
         <Link href={'./about'}>About</Link>
         <SearchInput />
